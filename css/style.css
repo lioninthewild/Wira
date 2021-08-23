@@ -814,7 +814,7 @@ a:focus {
     margin: 0;
     padding: 0 15px 0 25px;
     width: calc(100% - 60px);
-    font-size: 27px;
+    font-size: 20px;
     font-weight: 700;
     color: #fdbe33;
     text-align: center;
@@ -920,6 +920,10 @@ a:focus {
     max-width: 100%;
     width: auto;
     height: auto;
+}
+
+.delay {
+    transition-delay: 9s;
 }
 
 .video .btn-play span {
@@ -2144,7 +2148,7 @@ a:focus {
 /*******************************/
 
 .footer {
-    width:100%;
+    width: 100%;
     position: relative;
     margin-top: 45px;
     padding-top: 90px;
@@ -2159,11 +2163,11 @@ a:focus {
     margin-bottom: 45px;
 }
 
-.footer-contact{
+.footer-contact {
     padding-left: 10%;
 }
 
-.footer-link{
+.footer-link {
     padding-left: 10%;
 }
 
